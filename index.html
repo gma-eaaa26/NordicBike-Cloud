@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NordicBike A/S</title>
-<style>
-body { font-family: Arial, sans-serif; max-width: 800px;
-margin: 60px auto; padding: 20px; line-height: 1.6; }
-h1 { color: #176b45; }
-.status { background: #e6f4ea; padding: 12px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NordicBike Aarhus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #1e3d59;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #e8e8e8;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .version-badge {
+            display: inline-block;
+            background-color: #17b978;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    </style>
 </head>
 <body>
-<h1>NordicBike A/S</h1>
-<p>Cykler, service og reparation</p>
-<h2>Velkommen til vores webshop</h2>
-<p>Vi hjælper dig med at komme videre på cykel.</p>
-<div class="status">Version 2.0 – NordicBike Cloud</div>
+
+    <header>
+        <h1>NordicBike Aarhus</h1>
+        <p>Din lokale cykelpartner i hjertet af Aarhus</p>
+    </header>
+
+    <main>
+        <h2>Velkommen til NordicBike-Cloud</h2>
+        <p>Her finder du bæredygtige og moderne cykelløsninger til bylivet i Aarhus. Sitet er hostet i skyen via Render og forbundet med GitHub.</p>
+        
+        <div class="version-badge">Version 1.0</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NordicBike Aarhus. Alle rettigheder forbeholdes.</p>
+    </footer>
+
 </body>
 </html>
